@@ -18,7 +18,7 @@ namespace ChallengeBackend.Tests.Application.UseCases.Queries.GetAllPermissions
     public class GetAllPermissionsRequestHandlerTest
     {
         [Fact]
-        public async Task Hande_GetAllPermissions_WithElements()
+        public async Task Handle_GetAllPermissions_WithElements()
         {
             //Arrange
             var repository = new Mock<IPermissionRepository>();

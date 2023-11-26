@@ -18,7 +18,7 @@ namespace ChallengeBackend.Tests.Application.UseCases.Commands.RemovePermission
     public class RemovePermissionRequestHandlerTest
     {
         [Fact]
-        public async Task Hande_RemovePermission_OK()
+        public async Task Handle_RemovePermission_OK()
         {
             //Arrange
             var repository = new Mock<IPermissionRepository>();

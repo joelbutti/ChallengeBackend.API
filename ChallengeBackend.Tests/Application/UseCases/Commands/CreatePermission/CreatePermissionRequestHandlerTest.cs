@@ -17,7 +17,7 @@ namespace ChallengeBackend.Tests.Application.UseCases.Commands.CreatePermission
     public class CreatePermissionRequestHandlerTest
     {
         [Fact]
-        public async Task Hande_CreatePermission_OK()
+        public async Task Handle_CreatePermission_OK()
         {
             //Arrange
             var repository = new Mock<IPermissionRepository>();

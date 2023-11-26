@@ -18,7 +18,7 @@ namespace ChallengeBackend.Tests.Application.UseCases.Queries.GetPermissionById
     public class GetPermissionByIdRequestHandlerTest
     {
         [Fact]
-        public async Task Hande_GetPermissionById_WithElements()
+        public async Task Handle_GetPermissionById_WithElements()
         {
             //Arrange
             var repository = new Mock<IPermissionRepository>();

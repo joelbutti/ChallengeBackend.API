@@ -18,7 +18,7 @@ namespace ChallengeBackend.Tests.Application.UseCases.Commands.UpdatePermission
     public class UpdatePermissionRequestHandlerTest
     {
         [Fact]
-        public async Task Hande_UpdatePermission_OK()
+        public async Task Handle_UpdatePermission_OK()
         {
             //Arrange
             var repository = new Mock<IPermissionRepository>();
